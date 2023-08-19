@@ -17,10 +17,6 @@ Before you start, make sure you have the following:
 
 2. **Python and Dependencies**: This bot is written in Python and uses the `python-telegram-bot` library for interacting with the Telegram Bot API. Install the required dependencies using:
 
-   ```bash
-   pip install python-telegram-bot mysql-connector-python
-   ```
-
 3. **MySQL Database**: You need a MySQL database to store quiz questions. Make sure you have MySQL installed and accessible on your computer.
 
 ### Setup
@@ -31,19 +27,23 @@ Before you start, make sure you have the following:
    git clone https://github.com/your-username/quiz-telegram-bot.git
    cd quiz-telegram-bot
    ```
+2. Install the following dependencies:
+   ```bash
+   pip install python-telegram-bot mysql-connector-python
+   ```
 
-2. Create a MySQL database and import the quiz questions:
+3. Create a MySQL database and import the quiz questions:
 
    - Use the provided SQL script (`quiz_app.sql`) to create the required tables and populate them with quiz questions.
 
-3. Update the bot token and database configuration in your code:
+4. Update the bot token and database configuration in your code:
 
    - Open `main.py` and replace the placeholders with your Telegram bot token and MySQL database connection details.
 
-4. Run the bot:
+5. Run the bot:
 
    ```bash
-   python main.py
+   python quiz.py
    ```
 
 ## Usage
