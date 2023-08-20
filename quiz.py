@@ -4,7 +4,7 @@ from telegram import Bot
 from telegram.ext import Application, CommandHandler, MessageHandler, ConversationHandler, filters, ContextTypes
 import mysql.connector
 
-TOKEN = '6454948063:AAFxdPy0szsbQzj9Upko1jamJeHevENKPFc'
+TOKEN = 'Your BotFather Token Here...'
 BOT_USERNAME: Final = '@itampeed_bot'
 
 # MySQL database setup
